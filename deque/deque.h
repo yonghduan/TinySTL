@@ -154,7 +154,8 @@ Deque<T,Alloc>::Deque(const size_t & element_number,const T & initial_value){
     for(int i = 0;i < need_buffer_num;i ++)
         map_pointer[initial_map_index + i] = Alloc::Allocate(8 * sizeof(T));
     for(int i = 0;i < need_buffer_num;i ++)
-        std::cout << initial_map_index+i << ":" << map_pointer[initial_map_index + i] << " ";
+        std::cout << initial_map_index+i << ":" <<
+        static_cast<void *>(( map_pointer[initial_map_index + i])) << " ";
     start = map_pointer[initial_map_index];
     map_start_index = initial_map_index;
     map_finish_index = initial_map_index + need_buffer_num - 1;

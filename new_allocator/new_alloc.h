@@ -75,7 +75,7 @@ void Destroy(const Iterator & iter){
 
 template<typename Iterator>
 void DestroyByType(const Iterator & iter_start,const Iterator & iter_end,struct NoDestroyType){
-    //std::cout << "DestroyByType().NoDestroyType\n";
+    std::cout << "DestroyByType().NoDestroyType\n";
 }
 
 template<typename T>

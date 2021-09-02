@@ -26,5 +26,17 @@ public:
     typedef NeedDestroyType has_trivial_destructor;
 };
 
+template<>
+class TypeTraits<char>{
+public :
+    typedef NoDestroyType has_trivial_destructor;
+};
+
+template<>
+class TypeTraits<double>{
+public:
+    typedef NoDestroyType has_trivial_destructor;
+};
+
 }
 #endif //TINYSTL_TYPE_TRAITS_H
