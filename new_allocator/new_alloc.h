@@ -16,7 +16,7 @@ template<typename T>
 class NewAlloc{
 public:
     static T * Allocate();
-    static T * Allocate(const size_t need_bytes);
+    static void * Allocate(const size_t need_bytes);
     static void Deallocate(T * ptr_temp);
     static void Deallocate(T * * ptr_temp);
 };
@@ -32,9 +32,9 @@ T * NewAlloc<T>::Allocate(){
 }
 
 template<typename T>
-T * NewAlloc<T>::Allocate(const size_t need_bytes) {
+void * NewAlloc<T>::Allocate(const size_t need_bytes) {
     std::set_new_handler(nullptr);
-    T * ptr_temp = static_cast<T *>(::operator new(need_bytes));
+    void * ptr_temp = ::operator new(need_bytes);
     if(ptr_temp != nullptr)
         return ptr_temp;
     std::cerr << "memory allocation failed!\n";
