@@ -1,3 +1,6 @@
 [submodule "TinySTL"]
 	path = TinySTL
 	url = git@github.com:yonghduan/TinySTL.git
+[submodule "NoteSon"]
+	path = NoteSon
+	url = git@github.com:yonghduan/NoteSon.git
