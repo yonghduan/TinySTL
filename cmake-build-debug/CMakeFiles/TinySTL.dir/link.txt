@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TinySTL.dir/objects.a
+E:\MinGw\mingw64\bin\ar.exe cr CMakeFiles\TinySTL.dir/objects.a @CMakeFiles\TinySTL.dir\objects1.rsp
+E:\MinGw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TinySTL.dir/objects.a -Wl,--no-whole-archive -o TinySTL.exe -Wl,--out-implib,libTinySTL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TinySTL.dir\linklibs.rsp

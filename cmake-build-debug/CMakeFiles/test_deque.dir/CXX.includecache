@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/TinySTL/deque/deque.h
+../new_allocator/new_alloc.h
+C:/Users/Administrator/Desktop/TinySTL/new_allocator/new_alloc.h
+
+C:/Users/Administrator/Desktop/TinySTL/iterator.h
+
+C:/Users/Administrator/Desktop/TinySTL/main.cpp
+iostream
+-
+deque/deque.h
+C:/Users/Administrator/Desktop/TinySTL/deque/deque.h
+iterator.h
+C:/Users/Administrator/Desktop/TinySTL/iterator.h
+
+C:/Users/Administrator/Desktop/TinySTL/new_allocator/iterator_traits.h
+
+C:/Users/Administrator/Desktop/TinySTL/new_allocator/new_alloc.h
+cstddef
+-
+new
+-
+iostream
+-
+cstdlib
+-
+../iterator.h
+C:/Users/Administrator/Desktop/TinySTL/iterator.h
+iterator_traits.h
+C:/Users/Administrator/Desktop/TinySTL/new_allocator/iterator_traits.h
+type_traits.h
+C:/Users/Administrator/Desktop/TinySTL/new_allocator/type_traits.h
+
+C:/Users/Administrator/Desktop/TinySTL/new_allocator/type_traits.h
+

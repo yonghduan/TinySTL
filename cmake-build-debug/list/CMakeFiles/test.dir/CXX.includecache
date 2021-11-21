@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../iterator.h
+
+../new_allocator/iterator_traits.h
+
+../new_allocator/new_alloc.h
+cstddef
+-
+new
+-
+iostream
+-
+cstdlib
+-
+iterator.h
+../new_allocator/iterator.h
+iterator_traits.h
+../new_allocator/iterator_traits.h
+type_traits.h
+../new_allocator/type_traits.h
+
+../new_allocator/type_traits.h
+
+C:/Users/Administrator/Desktop/TinySTL/list/list.h
+new_alloc.h
+C:/Users/Administrator/Desktop/TinySTL/list/new_alloc.h
+cstddef
+-
+iostream
+-
+
+C:/Users/Administrator/Desktop/TinySTL/list/test.cpp
+list.h
+C:/Users/Administrator/Desktop/TinySTL/list/list.h
+iterator.h
+C:/Users/Administrator/Desktop/TinySTL/list/iterator.h
+string
+-
+

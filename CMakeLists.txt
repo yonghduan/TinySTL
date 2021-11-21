@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-add_executable(test_deque main.cpp)
+add_executable(test_slist main.cpp)
